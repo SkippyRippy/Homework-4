@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link type="text/css" rel="stylesheet" href="index.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="bigBox">
+        <div class="box1">
+            <h1>Welcome to the Rupee Guessing Gallery!</h1>
+            <p>Use the rupees to add up to the House's number.</p>
+            <p>Don't go over, or it's game over!</p>
+            <p>House Number: <span id="randomNumber"></span></p>
+        </div>
+        <div class="box2">
+            <button class="btn"><img class="green" id="one" src="green.png"></button>
+            <button class="btn"><img class="purple" id="two" src="purple.png"></button>
+            <button class="btn"><img class="blue" id="three" src="blue.png"></button>
+            <button class="btn"><img class="pink" id="four" src="pink.png"></button>
+        </div>
+        <div class="box3">
+            <div class="userTotal">
+                <h2>Your total score is:
+                    <span id="finalTotal"></span>
+                </h2>
+            </div>
+            <div class="winsAndLosses">
+                <h2>Wins:
+                    <span id="numberWins"></span>
+                    </br>
+                    Losses:
+                    <span id="numberLosses"></span>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
